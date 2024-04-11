@@ -1,0 +1,34 @@
+.features_container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row;
+    margin: 4rem 6rem;
+}
+
+.features_container-title{
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-top: 4rem;
+}
+.features_container-title h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--font-family);
+    white-space: wrap;
+}
+
+.features_container-title p {
+    margin-top: 3rem;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: var;
+    white-space: nowrap;
+}
+
+.features_container-features .feature-container_rec-title h1{
+    white-space: wrap;
+}
