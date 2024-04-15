@@ -1,0 +1,30 @@
+.possibility_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.possibility_container-image {
+    display: flex;
+    width: 546px;
+    height: 607.53px;
+}
+
+.possibility_container-text {
+    font-family: var(--font-family);
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.possibility_container-text p {
+    margin: 2rem 0;
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#sub{
+    color: var(--color-subtext);
+}
