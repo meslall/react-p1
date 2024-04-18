@@ -37,6 +37,10 @@
     .features_container{
         flex-direction: column;
     }
+    .features_container-features .feature-container {
+        margin: 1rem;
+        flex-direction: column ;
+    }
 
     .features_container-title{
         margin-right: 0;
