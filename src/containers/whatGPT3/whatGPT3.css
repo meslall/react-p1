@@ -1,8 +1,6 @@
 .w-gpt {
     display: flex;
     flex-direction: column;
-
-    padding: 3rem;
     background: var(--color-footer);
 
     /* ff 3.6+ */
@@ -82,4 +80,21 @@
     flex: 1;
     margin: 1rem;
     flex-direction: column;
+}
+
+@media screen and (max-width: 900px){
+    .nd-w{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nd-w h1{
+        text-align: center;
+    }
+    .rd-w{
+        flex-direction: column;
+    }
+    .rd-w .feature-container{
+        margin: 1rem 0;
+    }
+    
 }

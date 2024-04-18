@@ -42,3 +42,17 @@
     box-shadow: 34px 23px 138px 16px rgba(3,27,52,0.78); -webkit-box-shadow: 34px 23px 138px 16px rgba(3,27,52,0.78); -moz-box-shadow: 34px 23px 138px 16px rgba(3,27,52,0.78);
     transform:scale(1.05) rotate(-1deg);
 }
+
+@media screen and (max-width: 900px){
+    .cta_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta_container-text{
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .button- {
+        margin: 1rem;
+    }
+}

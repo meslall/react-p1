@@ -31,3 +31,14 @@
 .features_container-features .feature-container_rec-title h1{
     white-space: wrap;
 }
+
+
+@media screen and  (max-width: 900px) {
+    .features_container{
+        flex-direction: column;
+    }
+
+    .features_container-title{
+        margin-right: 0;
+    }
+}

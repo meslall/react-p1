@@ -123,3 +123,42 @@
     padding-top: 5rem;
     color: rgba(255, 255, 255, 0.8);
 }
+
+@media screen and (max-width: 900px){
+    .footer_container-more{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_container-more-logo , .footer_container-more-links , .footer_container-more-company , .footer_container-more-getin {
+        max-width: 100%;
+        align-items: center;
+    }
+    .footer_container-more-logo img{
+        width: 50px;
+    }
+    .footer_container-more-logo h6{
+        font-size: 0.5rem;
+    }
+    .footer_container-more h3{
+        font-size: 0.75rem;
+    }
+    .footer_container-more ul{
+        font-size: 0.5rem;
+    }
+    .footer_container-early-access h1{
+        font-size: 1.5rem;
+    }
+    .footer_container-early-access-button{
+        margin: 1rem 0;
+    }
+    .footer_container{
+        padding: 1rem;
+    }
+    .footer_container-more{
+        padding: 1rem;
+    }
+    .footer_container-copyright{
+        padding-top: 2rem;
+    }
+    
+}
