@@ -40,7 +40,9 @@ function Footer() {
           )}
         </div>
       </div>
-      <div className='footer_container-copyright'></div>
+      <div className='footer_container-copyright'>
+        &copy; 2024 GPT-5. All rights reserved.
+      </div>
     </div>
   )
 }

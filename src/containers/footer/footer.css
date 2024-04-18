@@ -6,7 +6,7 @@
     font-family: var(--font-family);
 }
 
-.footer_container-early_access{
+.footer_container-early-access{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,21 +27,8 @@
     margin: 3rem 0;
 }
 
-/* .footer_container-early-access-button button{
-    margin: 2rem 0;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: var(--primary-color);
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    font-family: var(--font-family);
-    border: 1px solid white;
-    cursor: pointer;
-} */
-
 .button {
-  --glow-color: rgb(255, 198, 176);
+  --glow-color: #F49867;
   --glow-spread-color: rgba(191, 123, 255, 0.781);
   --enhanced-glow-color: rgb(231, 206, 255);
   --btn-color: #43337f;
@@ -91,9 +78,48 @@
 
 .footer_container-more{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     margin: 1rem 0;
-    color: rgba(255, 255, 255, 0.805); 
+    color: rgba(255, 255, 255, 0.8);
+    gap: 1rem;
+}
+
+.footer_container-more-logo img{
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.footer_container-more-logo h6{
+    font-size: 0.75rem;
+    font-weight: 200;
+    white-space: wrap;
+}
+
+.footer_container-more h3{
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: wrap;
+}
+.footer_container-more-logo , .footer_container-more-links , .footer_container-more-company , .footer_container-more-getin {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 200px;
+    padding: 1rem;
+}
+.footer_container-more ul{
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 200;
+    white-space: wrap;
+}
+
+.footer_container-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    padding-top: 5rem;
+    color: rgba(255, 255, 255, 0.8);
 }

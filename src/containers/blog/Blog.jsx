@@ -29,13 +29,13 @@ const Blog = () => {
       </div>
       <div className='blog_container-'>
         <div className='blog_container-principal'>
-          <Component path={blog01} title='GPT-3 and Open  AI is the future. Let us exlore how it is?' />
+          <Component path={blog01} title='GPT-5 and Open  AI is the future. Let us exlore how it is?' />
         </div>
         <div className='blog_container-other'>
-          <Component path={blog02} title='GPT-3 and Open  AI is the future. Let us exlore how it is?'/>
-          <Component path={blog03} title='GPT-3 and Open  AI is the future. Let us exlore how it is?'/>
-          <Component path={blog04} title='GPT-3 and Open  AI is the future. Let us exlore how it is?'/>
-          <Component path={blog05} title='GPT-3 and Open  AI is the future. Let us exlore how it is?'/>
+          <Component path={blog02} title='GPT-5 and Open  AI is the future. Let us exlore how it is?'/>
+          <Component path={blog03} title='GPT-5 and Open  AI is the future. Let us exlore how it is?'/>
+          <Component path={blog04} title='GPT-5 and Open  AI is the future. Let us exlore how it is?'/>
+          <Component path={blog05} title='GPT-5 and Open  AI is the future. Let us exlore how it is?'/>
         </div>
       </div>
     </div>

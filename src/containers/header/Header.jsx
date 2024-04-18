@@ -8,7 +8,7 @@ function Header() {
     <div className="header">
       <div className="header_content">
         <h1 className="header_slogan gradient__text">
-          Let’s Build Something amazing with GPT-3 OpenAI
+          Let’s Build Something amazing with GPT-5 OpenAI
         </h1>
         <p className="header_discreption">
           Yet bed any for travelling assistance indulgence unpleasing. Not
