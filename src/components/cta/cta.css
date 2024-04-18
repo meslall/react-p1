@@ -35,10 +35,10 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  transition: all 1s;
 }
 
 .button-:hover {
-    transition: 1s;
     box-shadow: 34px 23px 138px 16px rgba(3,27,52,0.78); -webkit-box-shadow: 34px 23px 138px 16px rgba(3,27,52,0.78); -moz-box-shadow: 34px 23px 138px 16px rgba(3,27,52,0.78);
     transform:scale(1.05) rotate(-1deg);
 }
