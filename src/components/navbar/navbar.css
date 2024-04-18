@@ -18,8 +18,7 @@
 }
 
 .gpt3ouss__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 40px;
 }
 
 .gpt3ouss__navbar-links_container {
@@ -88,7 +87,6 @@
     padding: 2.5rem;
     position: absolute;
     right: 0;
-    /* top: 100px; */
     margin-top: 3rem;
     min-width: 210px;
     border-radius: 20px;
