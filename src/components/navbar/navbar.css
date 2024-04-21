@@ -107,7 +107,7 @@
 
 @media screen and (max-width: 650px ) {
     .gpt3ouss__navbar {
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
     }
     .gpt3ouss__navbar-links_container {
         display: none;
