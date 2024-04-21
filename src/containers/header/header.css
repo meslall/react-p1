@@ -111,18 +111,56 @@
     object-fit: contain;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 900px){
     .header_image{
         display: none;
     }
     .header_input{
         width: 100%;
+        flex-direction: column;
         height: 50%;
         padding-right: 5rem;
+    }
+    .header_input button{
+        border-radius: 10px;
+    }
+    .header_input input{
+        border-radius: 10px;
     }
     .header_people{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    
+}
+
+@media screen and (max-width: 500px){
+    .header_content{
+        margin : 0 2rem;
+    }
+    .header_slogan{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .header_discreption{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header_input input{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header_input button{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header_people p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header_people img{
+        max-height: 20px;
+    }
+    
 }

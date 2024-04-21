@@ -46,3 +46,20 @@
         margin-right: 0;
     }
 }
+
+@media screen and  (max-width: 500px){
+    .features_container{
+        margin: 2rem;
+    }
+    .features_container-title h1{
+        font-size: 1.5rem;
+    }
+    .features_container-title p{
+        font-size: 14px;
+    }
+    .features_container-features .feature-container {
+        margin: 1rem;
+        
+    }
+    
+}

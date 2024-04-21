@@ -41,5 +41,13 @@
         margin: 2rem 0;
         text-align: center;
     }
-    
+}
+
+@media screen and (max-width: 500px){
+    .possibility_container-image img {
+        width: 300px;
+    }
+    .possibility_container-text {
+        margin-left: 0;
+    }
 }
