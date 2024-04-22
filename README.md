@@ -1,4 +1,4 @@
-# React Website - ReactPlayground: Leveling Up My React Skills
+# ReactPlayground: Leveling Up My React Skills
 
 ![React Website](./src/assets/GPT-5.jpeg)
 
