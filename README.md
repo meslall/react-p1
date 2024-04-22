@@ -25,13 +25,13 @@ To run this project locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/meslall/react-p1
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd your-repository-name
+   cd react-p1
    ```
 
 3. Install dependencies:
