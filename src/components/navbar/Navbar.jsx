@@ -9,9 +9,9 @@ const Menu = ( ) => {
   return(
     <>
     <p><a href='#HOME'>Home</a></p>
-    <p><a href='#What is GPT?'>What is GPT?</a></p>
-    <p><a href='#Open AI'>Open AI</a></p>
-    <p><a href='#Case Studies'>Case Studies</a></p>
+    <p><a href='#What_is_GPT'>What is GPT?</a></p>
+    <p><a href='#Open_AI'>Open AI</a></p>
+    <p><a href='#Features'>Features</a></p>
     <p><a href='#Library'>Library</a></p>
     </>
     )
@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className='gpt3ouss__navbar'>
       <div className='gpt3ouss__navbar-links'>
         <div className='gpt3ouss__navbar-links_logo'>
-          <img src={logo} alt="logo" />
+          <a href='#HOME'><img src={logo} alt="logo"/></a>
         </div>
         <div className='gpt3ouss__navbar-links_container'>
           <Menu />

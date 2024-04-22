@@ -4,7 +4,7 @@ import './whatGPT3.css'
 
 function WhatGPT3() {
   return (
-    <div className='w-gpt section__margin section__padding'>
+    <div id='What_is_GPT' className='w-gpt section__margin section__padding'>
       <div className='st-w'>
         <Feature title='What is GPT-5'description='We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.'/>
       </div>

@@ -2,8 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 2rem 6rem;
+    position: fixed;
+    z-index: 1;
+    background: #042c5460;
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 20px 20px;
+    padding: 0.5rem  6rem;
+    width: 100%;
 }
 
 .gpt3ouss__navbar-links {
@@ -71,7 +76,7 @@
     /* position: absolute; */
 }
 
-.gpt3ouss_navbar-menu svg{
+.gpt3ouss_navbar-menu svg , .gpt3ouss__navbar-links_logo img{
 
     cursor: pointer;
 }
@@ -95,8 +100,9 @@
 
 @media screen and (max-width: 1050px ) {
     .gpt3ouss__navbar {
-        padding: 2rem 4rem;
+        padding: 0.5rem 4rem;
     }
+    
     .gpt3ouss__navbar-links_container {
         display: none;
     }

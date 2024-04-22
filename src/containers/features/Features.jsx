@@ -4,7 +4,7 @@ import './features.css'
 
 function Features() {
   return (
-    <div className='features_container'>
+    <div id='Features' className='features_container'>
       <div className='features_container-title'>
           <h1 className='gradient__text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
           <p className='gradient__text'>Request Early Access to Get Started</p>

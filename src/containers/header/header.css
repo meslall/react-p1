@@ -1,5 +1,6 @@
 .header{
     display: flex;
+    padding-top: 2rem;
     /* flex-direction: row; */
     /* color: aliceblue; */
 }
@@ -114,6 +115,9 @@
 @media screen and (max-width: 900px){
     .header_image{
         display: none;
+    }
+    .header{
+        padding-top: 6rem;
     }
     .header_input{
         width: 100%;

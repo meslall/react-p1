@@ -10,9 +10,9 @@ function Footer() {
     <div className='footer_container section__margin'>
       <div className='footer_container-early-access'>
         <h1 className='gradient__text'>Do you want to step in to the future before others</h1>
-        <div className='footer_container-early-access-button'>
-          <button class="button">
-            <span class="text">Request Early Access</span>
+        <div id='Open_AI' className='footer_container-early-access-button'>
+          <button className="button">
+            <span className="text">Request Early Access</span>
           </button>
         </div>
       </div>
@@ -23,20 +23,20 @@ function Footer() {
         </div>
         <div className='footer_container-more-links'>
           <h3>Links</h3>
-            {links.map((link)=>
-              <ul>{link}</ul>
+            {links.map((link,i)=>
+              <ul key={i}>{link}</ul>
           )}
         </div>
         <div className='footer_container-more-company'>
             <h3>Company</h3>
-            {company.map((company)=>
-            <ul>{company}</ul>
+            {company.map((company,i)=>
+            <ul key={i}>{company}</ul>
           )}
         </div>
         <div className='footer_container-more-getin'>
             <h3>Get in touch</h3>
-            {getin.map((getin)=>
-            <ul>{getin}</ul>
+            {getin.map((getin,i)=>
+            <ul key={i}>{getin}</ul>
           )}
         </div>
       </div>

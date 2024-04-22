@@ -5,7 +5,7 @@ import "./header.css";
 
 function Header() {
   return (
-    <div className="header">
+    <div id='HOME' className="header">
       <div className="header_content">
         <h1 className="header_slogan gradient__text">
           Let’s Build Something amazing with GPT-5 OpenAI

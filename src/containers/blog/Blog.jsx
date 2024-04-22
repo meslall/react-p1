@@ -23,7 +23,7 @@ const Component = (props) => {
 }
 const Blog = () => {
   return (
-    <div className='blog_container section__margin'>
+    <div id='Library' className='blog_container section__margin'>
       <div className='blog_container-text gradient__text'>
         <h1>A lot is happening, We are blogging about it.</h1>
       </div>
